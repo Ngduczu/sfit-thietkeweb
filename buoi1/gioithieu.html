@@ -23,9 +23,16 @@
  <link rel="canonical" href="https://example.com/web">
 </head>
 
+<style>
+    a{
+        display: block;
+    }
+</style>
+
+
+
 <!-- Nơi hiển thị trên trình duyệt -->
 <body>
-</body>
 
 <!-- Các thẻ heading -->
 <!-- Dùng để tạo tiêu đề và phân cấp nội dung. -->
@@ -71,5 +78,160 @@
     <p>Ngược lại thì thẻ sup sẽ tạo văn bản chỉ số trên</p>
     <b><i>Ví dụ: </i></b> y = 2x<sup>4</sup> - 4x<sup>3</sup> + 3x<sup>2</sup> + 5x - 1
 
-    cac
+    <hr>
+    <h2>Đường dẫn tương đối, đường dẫn tuyệt đối:</h2>
+    <ul>
+        <li>Đường dẫn: là thứ dùng để xác định vị trí tài nguyên như trang HTML, CSS, JS, Hình ảnh, ...</li>
+        <li>
+            <b>Đường dẫn tương đối: </b> là đường dẫn xác định vị trí tài nguyên dựa trên vị trí hiện tại
+            <ul>
+                <li>chú ý: .. &rightarrow; lên 1 cấp thư mục cha </li>
+            </ul>
+        </li>
+        <li><b>Đường dẫn tuyệt đối:</b> xác định đầy đủ địa chỉ của tài nguyên, thường bao gồm protocol và domain khi nói về URL trên Web.</li>
+    </ul>
+    <hr>
+    <h2>Thẻ đường dẫn <code>&lt; a &gt;</code> - thẻ hình ảnh <code>&lt; img &gt;</code></h2>
+    <ul>
+        <li>
+            <h3>Thẻ đường dẫn <code>&lt;a&gt;</code></h3>
+            <!--
+                target: xác định nơi tài liệu được mở.
+
+                Các giá trị thường gặp:
+
+                _self   : mở trong tab/frame hiện tại (mặc định)
+                _blank  : mở trong tab mới
+                _parent : mở trong browsing context cha
+                _top    : mở ở browsing context cấp cao nhất
+            -->
+
+            <!--
+                rel = Relationship
+
+                Mô tả mối quan hệ giữa trang hiện tại
+                và tài nguyên được liên kết.
+
+                Một số giá trị thường gặp:
+
+                noopener   : ngăn trang mới truy cập window.opener
+                noreferrer : không gửi thông tin referrer
+                nofollow   : báo cho Search Engine rằng không nên
+                            coi link này như một sự xác nhận/endorsement
+                sponsored  : link quảng cáo/tài trợ
+                ugc        : User Generated Content
+            -->
+
+            <!--
+                download:
+                Gợi ý trình duyệt tải tài nguyên xuống
+                thay vì điều hướng đến tài nguyên đó.
+            -->
+            <a href="https://facebook.com/ndv128">Thẻ a linkto FB mặc định</a>
+            <a href="https://facebook.com/ndv128" target="_self">Thẻ FB - target _self</a>
+            <a href="https://facebook.com/ndv128" target="_parent">Thẻ FB - target _parent</a>
+            <a href="https://facebook.com/ndv128" target="_blank">Thẻ FB - target _blank</a>
+            <a href="https://facebook.com/ndv128" target="_top">Thẻ FB - target _top</a>
+
+
+            <p>Thẻ a với liên kết đặc biệt</p>
+            <a href="tel:+84333496018">Thẻ a - số điện thoại</a>
+            <a href="mailto:ndv120806@gmail.com">Thẻ a - liên kết gửi Email</a>
+            <a href="mailto:ndv120806@gmail.com?subject=WebSfit">Thẻ a - liên kết gửi Email với chủ đề</a>
+        </li>
+        <li>
+            <h3>Thẻ hình ảnh <code>&lt;img&gt;</code></h3>
+            <!-- 1. src -->
+            
+
+            <!--
+                src = Source
+
+                Xác định đường dẫn đến hình ảnh.
+
+                Có thể sử dụng:
+                - Đường dẫn tương đối
+                - URL tuyệt đối
+            -->
+
+            <!-- 2. alt -->
+
+            <!--
+                alt = Alternative Text
+
+                Nội dung thay thế cho hình ảnh.
+
+                Quan trọng cho:
+                - Accessibility / Screen Reader
+                - Trường hợp ảnh không tải được
+                - Giúp Search Engine hiểu nội dung hình ảnh
+            -->
+
+            <img
+                src="./images/cat.jpg"
+                alt="Một con mèo màu trắng đang nằm trên ghế"
+            >
+            <br>
+            <!-- ====================================================== -->
+            <!-- 3. width                                               -->
+            <!-- ====================================================== -->
+
+            <!--
+                width:
+                Chiều rộng hiển thị của hình ảnh.
+            -->
+
+            <img
+                src="./images/cat.jpg"
+                alt="Một con mèo"
+                width="400"
+            >
+            <br>
+
+            <!-- ====================================================== -->
+            <!-- 4. height                                              -->
+            <!-- ====================================================== -->
+
+            <!--
+                height:
+                Chiều cao hiển thị của hình ảnh.
+            -->
+
+            <img
+                src="./images/cat.jpg"
+                alt="Một con mèo"
+                width="700"
+                height="500"
+            >
+
+
+            <!--
+                Việc khai báo width + height còn giúp trình duyệt
+                dành trước không gian cho ảnh, giảm layout shift.
+            -->
+
+
+            <!-- ====================================================== -->
+            <!-- 5. loading                                             -->
+            <!-- ====================================================== -->
+
+            <!--
+                loading:
+                Quy định cách trình duyệt tải hình ảnh.
+
+                eager : tải ảnh ngay
+                lazy  : trì hoãn tải ảnh cho tới khi ảnh gần viewport
+            -->
+            <!--
+                lazy loading đặc biệt hữu ích với các ảnh
+                nằm phía dưới trang Web.
+            -->
+            <!-- IMAGE + LINK -->
+            <!--
+                Có thể đặt <img> bên trong <a>
+                để biến hình ảnh thành một liên kết.
+            -->
+        </li>
+    </ul>
+    </body>
 </html>
