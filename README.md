@@ -4,6 +4,14 @@
 <p style="text-align: right"><i>Lớp:</i> <b> Công nghệ thông tin 4 - 65</b></p>
 
 ---
+## Hướng dẫn nộp bài tập:
+- Sử dụng github để nộp bài tập
+- Tạo 1 repository public tên là: hovaten-web... (chỗ 3 chấm điền lớp học) *Ví dụ:* NguyenDucVu-webT6
+- Mỗi tuần tạo có bài tập <span>&rightarrow;</span> thêm 1 folder /buoi... (*Ví dụ:* /Buoi1) ở trong repo đó sau đó code vào và push lên
+- Điền link repo github vào đây [Google Sheet điền link repository github nộp bài thiết kế Web](https://docs.google.com/spreadsheets/d/1cGbjXUpUPMiVQubQbqPozS2K5Sj5Q4rep-wB1cqoS3s/edit?usp=sharing)
+- Hạn làm bài tập là 2 ngày kể từ sau buổi học.
+---
+
 ***Mục đích:***
 - Tài liệu được soạn thảo nhằm mục đích tổ chức các lớp học bổ trợ kiến thức của CLB Tin học cho khóa 66 về học phần thiết kế Web với mục tiêu chính là hỗ trợ các em trong kì thi kết thúc học phần.
 - Nội dung chính trong này chỉ xoay quanh 1 số kiến thức về HTML - CSS - JS cơ bản, như các thẻ HTML thường gặp, các thuộc tính CSS thường gặp và việc styling responsive, JavaScript cơ bản như thao tác với DOM, validate form sử dụng Regex,...
@@ -12,7 +20,7 @@
 ***Nội dung kiến thức:***
 |Buổi số |Nội dung kiến thức                                                |Bài tập                    |
 |:------:|:-----------------                                                |:------                    |
-|1       |Giới thiệu các khái niệm cơ bản của Web, SEO, các thẻ HTML cơ bản | [Bài tập buổi 1]()        |
+|1       |Giới thiệu các khái niệm cơ bản của Web, SEO, các thẻ HTML cơ bản | [Bài tập buổi 1](./buoi1/baitap/baitapbuoi1.md)        |
 |2       |Tiếp tục với các thẻ HTML cơ bản, form field, ...                 | [Bài tập buổi 2]()        |
 |3       |CSS: các loại CSS, các thuộc tính CSS cơ bản                      | [Bài tập buổi 3]()        |
 |4       |CSS: Box model, Display, Position, Z-index, Grid Template,...     | [Bài tập buổi 4]()        |
