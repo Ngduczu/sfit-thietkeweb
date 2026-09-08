@@ -26,6 +26,7 @@
 
 ### Tư liệu học tập
 - [***W3school***:](https://www.w3schools.com/html/default.asp), [***GeeksforGeeks***](https://www.geeksforgeeks.org/) tư liệu chính
+- [***Regexr***](https://regexr.com/) : Nơi luyện tập Regex
 - Một số kênh youtube
     - [F8 Official](https://www.youtube.com/@F8VNOfficial) các playlist sau:
         - [HTML, CSS from Zero to Hero](https://www.youtube.com/playlist?list=PL_-VfJajZj0U9nEXa4qyfB4U5ZIYCMPlz) : HTML, CSS
