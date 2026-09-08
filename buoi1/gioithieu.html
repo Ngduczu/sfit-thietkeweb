@@ -232,6 +232,42 @@
                 để biến hình ảnh thành một liên kết.
             -->
         </li>
+        <hr>
+        <table border="1">
+            <caption>Đây là thẻ <code>&lt; table &gt; và thẻ &lt; caption &gt;</code></caption>
+            <thead>
+                <tr>
+                    <th>Đây</th>
+                    <th>là</th>
+                    <th>các</th>
+                    <th>ô</th>
+                    <th>tiêu</th>
+                    <th>đề</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">1 ô với colspan = 2 tương đương việc ô này chiếm không gian bằng 2 cột</td>
+                    <td>&lt; td &gt; dùng để biểu diển table data</td>
+                    <td>&lt; caption &gt; dùng để biểu diễn tiêu đề của bảng</td>
+                    <td>Mỗi hàng trong bảng thì dùng &lt; tr &gt; = table row</td>
+                    <td>Các hàng dữ liệu được đặt trong &lt; tbody &gt;</td>
+                </tr>
+                <tr>
+                    <td colspan="3" rowspan="2">Các ô tiêu đề thì được đặt trong cặp thẻ &lt; thead &gt;</td>
+                    <td colspan="3">Ô tiêu đề thì là ô thẻ &lt; th &gt;</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Ô bên trái sử dụng thuộc tính rowspan 2 tương đương với việc chiếm không gian của 2 hàng</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">Đây là phần nội dung trong thẻ &lt; tfoot &gt;</td>
+                    <td>các thẻ &lt; thead &gt;, &lt; tbody &gt;, &lt; tfoot &gt; mang ý nghĩa semantic, hỗ trợ tối ưu SEO</td>
+                </tr>
+            </tfoot>
+        </table>
     </ul>
     </body>
 </html>
