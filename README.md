@@ -22,3 +22,15 @@
 |8       |JavaScript: Validate form, Event trong JavaScript, Regex,...      | [Bài tập buổi 8]()        |
 |9       |Luyện tập kết hợp: HTML - CSS - JS                                | [Tư liệu luyện tập]()     |
 |10      |Kiểm tra cuối khóa: Đánh giá toàn diện HTML - CSS - JS            | [Đề kiểm tra cuối khóa]() |
+
+
+### Tư liệu học tập
+- [***W3school***:](https://www.w3schools.com/html/default.asp), [***GeeksforGeeks***](https://www.geeksforgeeks.org/) tư liệu chính
+- Một số kênh youtube
+    - [F8 Official](https://www.youtube.com/@F8VNOfficial) các playlist sau:
+        - [HTML, CSS from Zero to Hero](https://www.youtube.com/playlist?list=PL_-VfJajZj0U9nEXa4qyfB4U5ZIYCMPlz) : HTML, CSS
+        - [JavaScript cơ bản](https://www.youtube.com/playlist?list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5) : JavaScript
+        - [HTML, CSS Tricks & Tips](https://www.youtube.com/playlist?list=PL_-VfJajZj0Uwu5Y5G-wSet5uhKGxE7Cq) : Tips and tricks HTML CSS
+
+    - [MTikCode](https://www.youtube.com/@MTikCode) playlist sau:
+        - [HTML + CSS + JS](https://www.youtube.com/playlist?list=PLkjexOwfFoW-kvL2cm4o7O3PVvzu5mmTN): đầy đủ nội dung. Trong đó đặc biệt chú ý đến video [Học CSS Từ Con Số 0 | Khoá Học Web Dễ Hiểu Nhất Cho Người Mới Bắt Đầu! FULL](https://www.youtube.com/watch?v=OZb9dVLpEC8)
