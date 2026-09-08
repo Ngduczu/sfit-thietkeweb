@@ -24,12 +24,12 @@
 |2       |Tiếp tục với các thẻ HTML cơ bản, form field, ...                 | [Bài tập buổi 2]()        |
 |3       |CSS: các loại CSS, các thuộc tính CSS cơ bản                      | [Bài tập buổi 3]()        |
 |4       |CSS: Box model, Display, Position, Z-index, Grid Template,...     | [Bài tập buổi 4]()        |
-|5       |Luyện tập với HTML - CSS                                          | [Tư liệu luyên tập]()     |
-|6       |Kiểm tra giữa khóa: nội dung kiểm tra phần - HTML, CSS            | [Đề kiểm tra giữa khóa]() |
+|5       |Luyện tập với HTML - CSS                                          | [Tư liệu luyên tập](https://drive.google.com/drive/folders/1-4OyAiYs3gnHHkfHd_FShuQmX7QHbycg?usp=sharing)     |
+|6       |Kiểm tra giữa khóa: nội dung kiểm tra phần - HTML, CSS            | [Đề kiểm tra giữa khóa](https://drive.google.com/drive/folders/1QHRuS6jbjm8ui7bEPvlGATbqIpAzuZhM?usp=sharing) |
 |7       |JavaScript: Biến, hàm, DOM trong JavaScript                       | [Bài tập buổi 7]()        |
 |8       |JavaScript: Validate form, Event trong JavaScript, Regex,...      | [Bài tập buổi 8]()        |
-|9       |Luyện tập kết hợp: HTML - CSS - JS                                | [Tư liệu luyện tập]()     |
-|10      |Kiểm tra cuối khóa: Đánh giá toàn diện HTML - CSS - JS            | [Đề kiểm tra cuối khóa]() |
+|9       |Luyện tập kết hợp: HTML - CSS - JS                                | [Tư liệu luyện tập](https://drive.google.com/drive/folders/1fcgYT8F4amN4p0uKQHKwS7nBYLLJ9lk8?usp=sharing)     |
+|10      |Kiểm tra cuối khóa: Đánh giá toàn diện HTML - CSS - JS            | [Đề kiểm tra cuối khóa](https://drive.google.com/drive/folders/1ZgZsahSllh-ci3PuWJ_RKi2nVtpEJpfq?usp=sharing) |
 
 
 ### Tư liệu học tập
